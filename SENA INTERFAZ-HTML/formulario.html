@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body> 
+     <div class="container-form">
+        <div class="welcome-back">
+            <div class="mensaje">
+                <h2>Formulario de registro</h2>
+                <p>Si ya tienes una cuenta inicia sesion</p>
+                <button class="sign-up">Iniciar sesion</button>
+            </div>
+        </div>
+    </div>
+<form id="formulario-css">
+    <label for="tipo"> Tipo de identificacion </label> <br>
+<select name="tipo" id="tipo">
+    <option value="c.c">Cedula ciudadania</option>
+    <option value="t.i">Tarjeta de identidad</option>
+    <option value="pas">Pasaporte</option>
+    <option value="c.ex">Cedula extranjeria</option>
+    <option value="p.p">Permiso especial de permanencia</option>
+</select><br>
+<label for="identificacion">Identificacion</label> <br>
+<input type="number" id="identificacion" placeholder=" identificacion"> <br>
+<label for="nombre">Nombre</label> <br>
+<input type="text" placeholder="nombre"> <br>
+<label for="apellido"> Apellido </label> <br>
+<input type="text" placeholder="apellido"> <br>
+<label for="email"> Correo electronico </label> <br>
+<input type="email" placeholder="correo"> <br>
+<label for="telefono"> Telefono </label> <br>
+<input type="number" placeholder="telefono"> <br>
+<label for="direccion"> Direccion </label> <br>
+<input type="text" placeholder="direccion"> <br>
+<label for="fecha"> Fecha de nacimiento </label> <br>
+<input type="date" placeholder="fecha"> <br>
+<label for="genero"> Genero: </label> <br>
+<input type="radio" id="masculino" name="genero" value="masculino">
+<label for="masculino"> Masculino </label> <br>
+<input type="radio" id="femenino" name="genero" value="femenino">
+<label for="masculino"> Femenino </label> <br>
+<input type="radio" id="otro" name="genero" value="otro">
+<label for="masculino"> Otro </label> <br>
+
+<label for="genero"> Usted es: </label> <br>
+<input type="radio" id="Estudiante" name="genero" value="Estudiante">
+<label for="masculino"> Estudiante </label> <br>
+<input type="radio" id="Profesor" name="Profesor" value="Profesor">
+<label for="masculino"> Profesor </label> <br>
+<input type="radio" id="Padre" name="Padre" value="Padre">
+<label for="masculino"> Padre de familia </label> <br>
+
+<input type="submit" value="Registrarse">
+
+</form>
+
+
+
+</body>
+</html>
